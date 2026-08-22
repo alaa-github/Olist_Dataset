@@ -1,0 +1,14 @@
+             order_id             | order_status | customer_city  | customer_state 
+----------------------------------+--------------+----------------+----------------
+ 5f79b5b0931d63f1a42989eb65b9da6e | delivered    | osasco         | SP
+ a44895d095d7e0702b6a162fa2dbeced | delivered    | itapecerica    | MG
+ 316a104623542e4d75189bb372bc5f8d | delivered    | nova venecia   | ES
+ 5825ce2e88d5346438686b0bba99e5ee | delivered    | mendonca       | MG
+ 0ab7fb08086d4af9141453c91878ed7a | delivered    | sao paulo      | SP
+ cd3558a10d854487b4f907e9b326a4fc | delivered    | valinhos       | SP
+ 07f6c3baf9ac86865b60f640c4f923c6 | delivered    | niteroi        | RJ
+ 8c3d752c5c02227878fae49aeaddbfd7 | delivered    | rio de janeiro | RJ
+ fa906f338cee30a984d0945b3832e431 | delivered    | ijui           | RS
+ 9b961b894e797f63622137ff7eb1c1af | delivered    | oliveira       | MG
+(10 rows)
+
