@@ -1,1 +1,22 @@
+project_name: olist_delivery_prediction
+version: 1.0.0
+
+paths:
+  data_dir: "task2"
+  models_dir: "task2"
+  logs_dir: "logs"
+  artifacts_dir: "artifacts"
+
+model:
+  name: "logistic_regression"
+  threshold: 0.5
+
+features:
+  numerical:
+    - total_price
+    - total_freight
+    - items_count
+    - total_payment
+    - max_installments
+  target: is_late
 
