@@ -1,0 +1,23 @@
+{
+  "model_name": "logistic_regression",
+  "feature_columns": [
+    "total_price",
+    "total_freight",
+    "items_count",
+    "total_payment",
+    "max_installments"
+  ],
+  "target_column": "is_late",
+  "train_rows": 67533,
+  "validation_rows": 14471,
+  "model_path": "/workspaces/Olist_Dataset/models/logistic_model.joblib",
+  "preprocessor_path": "/workspaces/Olist_Dataset/models/preprocessor.joblib",
+  "metrics": {
+    "accuracy": 0.6673346693386774,
+    "precision": 0.06688102893890675,
+    "recall": 0.4036222509702458,
+    "f1": 0.1147480691430673,
+    "roc_auc": 0.5651932737935699,
+    "average_precision": 0.06473727980373009
+  }
+}
