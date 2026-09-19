@@ -18,36 +18,24 @@ model:
 
 features:
   numeric:
-    - item_count
-    - distinct_product_count
-    - distinct_seller_count
-    - merchandise_value
-    - freight_value
-    - order_value
-    - payment_record_count
-    - paid_value
+    - total_price
+    - total_freight
+    - items_count
+    - total_payment
     - max_installments
-    - payment_type_count
-    - category_count
-    - geo_distance_km
-    - purchase_hour
-    - purchase_weekday_num
-    - purchase_month
 
-  categorical:
-    - customer_state
-    - seller_state
-    - payment_type_primary
+  categorical: []
 
-  target: delivered_late
+  target: is_late
 
 validation:
   min_rows: 1
   required_columns:
-    - order_purchase_timestamp
-    - customer_state
-    - seller_state
-    - payment_type_primary
+    - total_price
+    - total_freight
+    - items_count
+    - total_payment
+    - max_installments
 
 api:
   host: "0.0.0.0"
